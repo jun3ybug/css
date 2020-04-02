@@ -1,0 +1,90 @@
+/*————————————————*/
+/*—[-Gravity Forms Style–*/
+/*————————————————*/
+
+.gform_wrapper label.gfield_label{
+  text-transform: normal;
+  color: #222;
+  font-weight: 600;
+  font-size: 16px !important;
+  margin-top: 20px;
+}
+
+body .gform_wrapper .gform_body .gform_fields .gfield input[type=text] {
+  background-color: #f8f4f3 !important;
+  border: 1px solid #e6e6e6 !important;
+  color: #222 !important;
+  padding: 10px !important;
+}
+
+body .gform_wrapper .gform_body .gform_fields .gfield select {
+  background-color: #f8f4f3 !important;
+  color: #222;
+  padding: 10px !important;
+  border: 1px solid #e6e6e6 !important;
+}
+
+.ginput_container .ginput_container_select{
+  padding: 20px !important;
+}
+
+body .gform_wrapper .gform_body .gform_fields .gfield textarea {
+  background-color: #f8f4f3 !important;
+  color: #222;
+  padding: 10px !important;
+  border: 1px solid #e6e6e6 !important;
+}
+
+.gform_wrapper .gfield_required{
+  color: #c99872 !important;
+}
+
+.gform_wrapper .gsection .gfield_label, .gform_wrapper h2.gsection_title, .gform_wrapper h3.gform_title{
+  margin-top: 60px !important;
+  color: #FC502C;
+}
+
+body .gform_wrapper .gform_footer input[type=submit] {
+  font-size: 14px;
+  background-color: #D6B15C;
+  border-width: 0px!important;
+  border-color: #D6B15C;
+  border-radius: 0px;
+  font-weight: bold;
+  font-style: normal;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  padding: 15px 30px;
+  display: inline-block;
+  margin: 20px 0;
+  color: #fff !important;
+}
+
+body .gform_wrapper .gform_footer input:hover[type=submit] {
+	background: #d6ad3b !important;
+}
+
+body .gform_wrapper .gform_footer input:hover::after[type=submit] {
+	content: '$' !important;
+}
+
+.gform_wrapper div.validation_error{
+	border-top: 2px solid #D6B15C !important;
+	border-bottom: 2px solid #D6B15C !important;
+	color: #D6B15C !important;
+}
+
+.gform_wrapper li.gfield.gfield_error, .gform_wrapper li.gfield.gfield_error.gfield_contains_required.gfield_creditcard_warning{
+	background-color: #fff !important;
+	border-top: none !important;
+	border-bottom: none !important;
+}
+
+.gform_wrapper .gfield_error .gfield_label{
+	color: #222 !important;
+}
+
+.gform_wrapper .validation_message{
+	color: #D6B15C !important;
+}
